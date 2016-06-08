@@ -11,7 +11,17 @@
     <title>Index</title>
 </head>
 <body>
-    <div> 
+    <div>
+
+
+        @{
+            <h2> the page has been modified at </h2>
+                <span>
+                @DateTime.Now.Month<br />@DateTime.Now.Minute<br />@DateTime.Now.Year
+
+
+    </span>
+        }
     </div>
 </body>
 </html>
